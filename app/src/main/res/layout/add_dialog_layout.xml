@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:text="@string/name_target"
+        android:layout_alignBaseline="@+id/nameEdit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/nameEdit"
+        android:hint="@string/name_target"
+        android:layout_toRightOf="@+id/nameText"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/userIDText"
+        android:text="@string/target_id"
+        android:layout_alignBaseline="@+id/userIDEdit"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/userIDEdit"
+        android:layout_below="@id/nameEdit"
+        android:hint="@string/user_id"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/userIDText"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

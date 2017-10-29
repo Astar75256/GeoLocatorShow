@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/myLocation" android:title="@string/my_location" />
+    <item android:id="@+id/whereMyTarget" android:title="Где моя цель?" />
+</menu>

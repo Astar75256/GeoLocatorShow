@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Гео Локатор</string>
+    <string name="show_to_map">Показать на карте</string>
+    <string name="id_look_object">ID наблюдаемого объекта</string>
+    <string name="my_location">Моя локация</string>
+    <string name="empty"><![CDATA[<пусто>]]></string>
+    <string name="where_target">Где цель?</string>
+    <string name="current_target">Текущая цель:</string>
+    <string name="addUser"><![CDATA[+]]></string>
+    <string name="where_iam">Где я?</string>
+    <string name="traectory">Траектория</string>
+    <string name="status">Статус:</string>
+    <string name="name_target">Название цели</string>
+    <string name="user_id">User ID</string>
+    <string name="target_id">ID наблюдаемой цели</string>
+
+    <string-array name="userIdSpinner">
+        <item><![CDATA[<Пусто>]]></item>
+    </string-array>
+</resources>
